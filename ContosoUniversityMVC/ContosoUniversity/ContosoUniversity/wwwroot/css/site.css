@@ -1,10 +1,14 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
 a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
 }
 
 /* Sticky footer styles
@@ -34,6 +38,32 @@ button.accept-policy {
   line-height: inherit;
 }
 
+.home1 {
+    max-width: 370px;
+    max-height: 300px;
+    margin-top:25px;
+    margin-right: 5px;
+    
+    background-image: url(/images/buildhome.jpg);
+}
+
+.home2 {
+    max-width: 370px;
+    margin-top: 25px;
+    margin-right: 5px;
+    background-image: url(/images/home2.jpg);
+}
+
+.home3 {
+    max-width: 370px;
+    margin-top: 25px;
+    background-image: url(/images/gradhome.jpg);
+}
+
+.jumbotron {
+    background-image: url(/images/university.jpg);
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -42,15 +72,18 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 40px;
+    background-color: #93AD95;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif !important;
 }
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  line-height: 60px; /* Vertically center the text there */
+    background-color: #647A52;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    /* Set the fixed height of the footer here */
+    height: 40px;
+    line-height: 40px; /* Vertically center the text there */
 }
