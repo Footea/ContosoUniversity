@@ -61,9 +61,19 @@ button.accept-policy {
 }
 
 .jumbotron {
+   // margin:50px;
     background-image: url(/images/university.jpg);
 }
 
+
+.about {
+    margin-top: 400px;
+}
+
+.searchbx {
+    border-color: white;
+    border-radius: 0.3rem;
+}
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
